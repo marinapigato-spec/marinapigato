@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Marina Pigato — letture di astrologia e Human Design. Online e in presenza in Veneto.">
+<title>Marina Pigato</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+<header class="topbar">
+  <a class="mark" href="#top">MARINA PIGATO <span>/ MARYPIGA</span></a>
+  <nav>
+    <a href="#lettura">La lettura</a>
+    <a href="#chi-sono">Chi sono</a>
+    <a class="wa" href="#" data-wa>WhatsApp</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <img src="assets/hero-adele.jpg" alt="Marina Pigato nel paesaggio del Monte Summano">
+  <div class="shade"></div>
+  <div class="neon n1"></div><div class="neon n2"></div>
+  <div class="hero-copy">
+    <p class="kicker">MARINA PIGATO / MARYPIGA <span>-+-=+</span></p>
+    <h1>Non devi diventare<br>un’altra persona.</h1>
+    <p class="claim">Magari devi solo diventare un po’ più te.<br><em>E virare di qualche grado la direzione.</em></p>
+    <div class="doors">
+      <a href="#lettura">LA LETTURA ↓</a>
+      <a href="#chi-sono">CHI SONO ↓</a>
+    </div>
+  </div>
+</section>
+
+<section id="lettura" class="section split">
+  <div class="image-stack">
+    <img src="assets/lettura-adele.jpg" alt="Ritratto di Marina Pigato">
+    <span class="slash"></span>
+  </div>
+  <div class="copy">
+    <p class="eyebrow">LA LETTURA</p>
+    <h2>Una mappa,<br><i>non un verdetto.</i></h2>
+    <p>Astrologia e Human Design possono essere mappe molto precise. Ma una mappa non è la persona, e soprattutto non è una sentenza.</p>
+    <p>Le uso per <strong>allargare lo sguardo</strong>: vedere ciò che nella storia che stai vivendo rischia di diventare troppo stretto, riconoscere risorse e contraddizioni e mettere a fuoco una direzione possibile.</p>
+    <p>Non per dirti chi sei. Non per prevedere cosa succederà. Non per consegnarti un’altra identità da imparare a memoria.</p>
+    <blockquote>La mappa orienta.<br><em>La vita resta tua.</em></blockquote>
+
+    <div class="process" aria-label="Come funziona">
+      <span>RICHIESTA</span><b>→</b><span>MAPPA</span><b>→</b><span>LETTURA</span><b>→</b><span>CHIACCHIERATA</span><b>→</b><span>FEEDBACK</span>
+    </div>
+    <p>Mi racconti brevemente cosa ti porta qui. Preparo la mappa e la lettura; poi ci incontriamo per parlarne. <strong>Online oppure di persona.</strong> Il feedback serve a capire cosa ha davvero risuonato e cosa no.</p>
+    <p class="small-note">Nessuna verità definitiva. Nessuna illuminazione garantita. Le mappe sono strumenti di osservazione: le ipotesi si verificano nella realtà.</p>
+    <a class="cta" href="#" data-wa>RACCONTAMI DOVE TI TROVI →</a>
+  </div>
+</section>
+
+<section id="chi-sono" class="section split bio">
+  <div class="image-stack"><img src="assets/bio-adele.jpg" alt="Marina Pigato tra gli alberi"></div>
+  <div class="copy">
+    <p class="eyebrow">CHI SONO</p>
+    <h2>Marina.<br><i>Anche Marypiga.</i></h2>
+    <p>Ho lavorato per molti anni con le persone, nel sociale e nell’ospitalità. Oggi porto quella stessa attenzione in una forma diversa: <strong>ascoltare, osservare, mettere insieme pezzi che sembrano lontani e restituire una direzione leggibile.</strong></p>
+    <p>Ho due lauree nell’area sociale. Nel tempo ho continuato a studiare filosofia, pratiche contemplative, yoga, astrologia, Human Design e Gene Keys. Sono certificata in Restorative Yoga.</p>
+    <p>Non penso che tutti questi strumenti dicano la stessa cosa. E non mi interessa farli entrare a forza in un sistema perfetto.</p>
+    <p>Mi interessa ciò che accade <strong>sul crinale</strong>: tra spiritualità e pensiero critico, simboli e vita quotidiana, bisogno di capire e libertà di non definirsi completamente.</p>
+    <blockquote>Capire qualcosa di sé può dare una direzione.<br><em>Non deve diventare un’altra gabbia.</em></blockquote>
+  </div>
+</section>
+
+<section class="closing">
+  <img src="assets/footer-adele.jpg" alt="Monte Summano e paesaggio veneto">
+  <div class="closing-copy">
+    <p class="eyebrow">IL PRIMO PASSO</p>
+    <h2>Scrivimi.<br>Raccontami.<br><i>Vediamo.</i></h2>
+    <p>Puoi raccontarmi brevemente cosa ti porta qui oppure mandarmi un audio. Da lì capiamo se una lettura può avere senso.</p>
+    <p>Niente percorso da comprare in anticipo. Prima viene la domanda.</p>
+    <div class="buttons"><a class="cta" href="#" data-wa>WHATSAPP →</a></div>
+    <p class="signature">© 2026 MARINA PIGATO / MARYPIGA · -+-=+</p>
+  </div>
+</section>
+</main>
+
+<script>
+const WHATSAPP_NUMBER = "393474805543";
+document.querySelectorAll("[data-wa]").forEach(a => {
+  if (WHATSAPP_NUMBER) {
+    a.href = "https://wa.me/" + WHATSAPP_NUMBER;
+    a.target = "_blank";
+    a.rel = "noopener";
+  } else {
+    a.href = "#";
+    a.addEventListener("click", e => {
+      e.preventDefault();
+      alert("WhatsApp sarà attivato qui prima della pubblicazione.");
+    });
+  }
+});
+</script>
+</body>
+</html>
