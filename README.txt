@@ -13,3 +13,8 @@ ULTIMA MODIFICA 06/09/2026
 - ultima immagine sostituita con DSCF8962
 - tipografia editoriale Didot/Bodoni applicata a titoli, claim e citazioni (con fallback web-safe)
 - nessuno "spazio di orientamento" presente nel sito reale
+
+BUGFIX 15/09/2026
+- ultima schermata mobile: titolo ridimensionato per evitare il taglio laterale
+- overflow finale corretto e safe area iPhone rispettata
+- copyright aggiornato a © 2026
